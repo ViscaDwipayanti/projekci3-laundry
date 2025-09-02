@@ -1,0 +1,59 @@
+# ===================================
+# System & Temporary Files
+# ===================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.bak
+*.swp
+*.tmp
+
+# ===================================
+# Application Cache & Logs
+# ===================================
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+# keep .htaccess di semua folder application
+!application/*/.htaccess
+
+# ===================================
+# Environment Files
+# ===================================
+.env
+
+# ===================================
+# Dependencies
+# ===================================
+/vendor/
+
+# ===================================
+# Tests
+# ===================================
+composer.lock
+tests/mocks/database/ci_test.sqlite
+/tests/tests/
+/tests/results/
+
+# ===================================
+# User Guide Build Files
+# ===================================
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# ===================================
+# IDE / Editor Files
+# ===================================
+/nbproject/
+.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project

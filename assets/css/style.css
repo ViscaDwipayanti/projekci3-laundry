@@ -1,0 +1,40 @@
+:root{
+    --primary: #689ebe;
+    --secondary: #3e6a8d;
+    --tertiary: #2c3c4c;
+    --lighblue: #4da3ff;
+}
+
+.sidebar{
+    background-color:var(--secondary) ;
+}
+
+.btn-custom{
+    background-color: var(--secondary);
+    color: aliceblue;
+}
+.btn-custom:hover{
+    background-color: var(--tertiary);
+    color: aliceblue;
+}
+
+.form-custom {
+    font-size: 14px;
+}
+
+.label-custom {
+    color: black;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: -2px;
+
+}
+
+.form-field {
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+}
+
+.form-button {
+    margin-top: 18px;
+}
